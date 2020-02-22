@@ -8,3 +8,10 @@ h1{
     color: orangered;
 
 }
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
