@@ -60,9 +60,10 @@ section{
     background-position: right;
 }
 .single-experience{
-    box-shadow: 10px 10px 40px rgb(187, 121, 121);
-    border-radius: 5px;
+    box-shadow: 10px 10px  40px gray;
+    border-radius: 10px;
     height: 80%;
+    background-color: whitesmoke;
 
 }
 .experience-area{
@@ -70,10 +71,47 @@ section{
     background-image: url("images/exp-bg.png") ;
     background-repeat: no-repeat;
     background-position: left;
+    
 
 }
 #full-stack{
-    border: 7px solid;
-    border-image: linear-gradient(180deg lightSalmon,tomato);
+    border-left: 7px solid;
+    border-radius:  10px;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
     border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+.experience-area2{
+
+    background-image: url("images/exp-bg.png") ;
+    background-repeat: no-repeat;
+    background-image: inherit;
+    
+}
+#new-bie{
+  
+    border-left: 7px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+
+}
+#new-progrm{
+    border-left: 7px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
+    color: #b71540;
+    font-size: 18px;
+    
 }
